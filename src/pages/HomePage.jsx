@@ -6,6 +6,8 @@ import {
   getFirestore,
   collection,
   onSnapshot,
+  DocumentData,
+  Timestamp,
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
 
