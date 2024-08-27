@@ -13,11 +13,6 @@ export function EditEmployee() {
   const [inputValue2, setInputValue2] = useState(
     data.salary.toString()
   );
-  const statusOptions = [
-    {value: 'junior', label: 'junior'},
-    {value: 'mid', label: 'mid'},
-    {value: 'senior', label: 'senior'}
-  ]
 
   const [inputValue4, setInputValue4] = useState(
     data.birthdate.toDate().toLocaleDateString()
@@ -51,6 +46,12 @@ export function EditEmployee() {
 
     navigate("/");
   }
+
+  const statusOptions = [
+    {value: 'junior', label: 'junior'},
+    {value: 'mid', label: 'mid'},
+    {value: 'senior', label: 'senior'}
+  ]
 
   return (
     <div id="edit_page">

@@ -5,9 +5,7 @@ import { initializeApp } from "firebase/app";
 import {
   getFirestore,
   collection,
-  onSnapshot,
-  DocumentData,
-  Timestamp,
+  onSnapshot
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
 
