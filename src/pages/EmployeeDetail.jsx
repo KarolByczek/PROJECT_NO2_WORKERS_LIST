@@ -42,7 +42,7 @@ export const EmployeeDetail = () => {
             type="text"
             id="birthdate"
             readOnly
-            value={dateFormatter(data.birthdate.toDate())}
+            value={dateFormatter(new Date(data.birthdate.seconds *1000).toLocaleDateString())}
           />
         </label>
         <label htmlFor="club_member">

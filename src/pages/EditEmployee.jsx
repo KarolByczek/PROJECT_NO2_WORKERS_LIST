@@ -13,15 +13,11 @@ export function EditEmployee() {
   const [inputValue2, setInputValue2] = useState(
     data.salary.toString()
   );
-  
-  console.log(typeof data.birthdate);
 
   const [inputValue4, setInputValue4] = useState(
-    new Date(data.birthdate.seconds * 1000)
+    new Date(data.birthdate.seconds * 1000).toLocaleDateString('pl-EU')
   );
   
-  
-
   const editEmployee = (formdata) => {
     return {
       firstname: formdata.get("firstname"),
