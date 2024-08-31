@@ -16,7 +16,8 @@ const resources = {
             carowner: "CAR OWNER",
             confirmation: "YES",
             denial: "NO",
-            details: "Show details",
+            details: "DETAILS",
+            details_showing: "Show details",
             edit: "Edit",
             edit_data: "EDIT EMPLOYEE DATA",
             save_edited: "SAVE THE EDITED DATA",
@@ -54,7 +55,8 @@ const resources = {
             carowner: "WŁAŚCICIEL SAMOCHODU",
             confirmation: "TAK",
             denial: "NIE",
-            details: "Pokaż szczegóły",
+            details: "SZCZEGÓŁY",
+            details_showing: "Pokaż szczegóły",
             edit: "Edytuj",
             edit_data: "EDYTUJ DANE PRACOWNIKA",
             save_edited: "ZAPISZ ZMIANY",
@@ -92,7 +94,8 @@ const resources = {
             carowner: "AUTOBESITZER",
             confirmation: "JA",
             denial: "NEIN",
-            details: "Schauen Die Detailen",
+            details: "DETAILEN",
+            details_showing: "Schauen die Detailen",
             edit: "Editen",
             edit_data: "EDITEN SIE DIE DATEN VON DER MITARBEITER",
             save_edited: "HALTEN SIE DIE MODIFIZIERTE DATEN",
@@ -121,7 +124,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
     resources,
-    lng: "de",
+    lng: "pl",
     fallbackLng: "en"
 })
 

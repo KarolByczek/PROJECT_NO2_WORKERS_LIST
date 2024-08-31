@@ -274,7 +274,7 @@ export const Table = (props) => {
                 <td className="buttons">
                   <span>Actions:</span>
                   <button onClick={(event) => onClickHandler(event, employee)}>
-                    {t("details")}
+                    {t("details_showing")}
                   </button>
                   <button
                     onClick={(event) => onClickHandler02(event, employee)}
