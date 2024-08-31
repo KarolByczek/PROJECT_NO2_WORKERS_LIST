@@ -25,7 +25,7 @@ export const QuestionModal = (props) => {
         {t("delete_confirmation")}
         <div>
           {props.item.firstname} {props.item.lastname}, {t("birthdate")}: {}
-          {props.item.birthdate.toDate().toLocaleDateString("pl-US")}
+          {props.item.birthdate.toDate().toLocaleDateString("en-EU")}
         </div>
         <div className="modbuttons">
           <button onClick={() => onClickButton01(props.item)}>

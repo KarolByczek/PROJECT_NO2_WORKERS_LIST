@@ -30,6 +30,13 @@ body {
   background-color: rgb(106, 122, 68);
   color: black;
   padding: 0.6rem;
+  margin-bottom: 2rem;
+  transition: all 0.4s;
+}
+
+.add_employee_link:hover {
+  border-color: #b7d433;
+  background-color: #a6b179;
 }
 
 h1 {
@@ -112,6 +119,7 @@ h1 {
           padding: 0.3rem;
           text-transform: uppercase;
           font-weight: bolder;
+          cursor: pointer;
         }
       }
     }

@@ -16,7 +16,7 @@ const resources = {
             carowner: "CAR OWNER",
             confirmation: "YES",
             denial: "NO",
-            details: "DETAILS",
+            details: "Show details",
             edit: "Edit",
             edit_data: "EDIT EMPLOYEE DATA",
             save_edited: "SAVE THE EDITED DATA",
@@ -24,7 +24,7 @@ const resources = {
             add_a_new: "ADD A NEW EMPLOYEE",
             add_button: "ADD THE EMPLOYEE",
             sorted_by: "SORTED BY:",
-            sort_employees_by: "SORT EMPLOYEES IN ASCENDING OR DESCENDING ORDER BY (CLICK)",
+            sort_employees_by: "SORT EMPLOYEES IN ASCENDING OR DESCENDING ORDER BY (CLICK ON A HEADLINE)",
             sort_employees_by_other: "CLICK ON ANY COLUMN HEADLINE TO SORT THE LIST (IN ASCENDING OR DESCENDING ORDER)",
             sorting_direction: "SORTING DIRECTION:",
             delete_confirmation: "Are you sure you would like to delete this employee:",
@@ -54,7 +54,7 @@ const resources = {
             carowner: "WŁAŚCICIEL SAMOCHODU",
             confirmation: "TAK",
             denial: "NIE",
-            details: "SZCZEGÓŁY",
+            details: "Pokaż szczegóły",
             edit: "Edytuj",
             edit_data: "EDYTUJ DANE PRACOWNIKA",
             save_edited: "ZAPISZ ZMIANY",
@@ -92,7 +92,7 @@ const resources = {
             carowner: "AUTOBESITZER",
             confirmation: "JA",
             denial: "NEIN",
-            details: "DETAILEN",
+            details: "Schauen Die Detailen",
             edit: "Editen",
             edit_data: "EDITEN SIE DIE DATEN VON DER MITARBEITER",
             save_edited: "HALTEN SIE DIE MODIFIZIERTE DATEN",
@@ -100,7 +100,7 @@ const resources = {
             add_a_new: "HINFÜGEN EINE NEUE MITARBEITER ZU",
             add_button: "HINFÜGE DER MITARBEITER ZU",
             sorted_by: "SORTIEREN NACH:",
-            sort_employees_by: "SORTIEREN DIE MITARBEITERN IN AUFSTEIGENDER ODER ABSTEIGENDER RICHTUNG NACH (KLICKEN)",
+            sort_employees_by: "SORTIEREN DIE MITARBEITERN IN AUFSTEIGENDER ODER ABSTEIGENDER RICHTUNG NACH (KLICKEN DIE ÜBERSCHRIFT)",
             sort_employees_by_other: "CLICKEN SIE AUF EINE GEWÄHLTE KOLONNE ÜBERSCHRIFT FÜR SORTIERUNG (IN AUFSTEIGENDER ODER ABSTEIGENDER RICHTUNG)",
             sorting_direction: "SORTIERUNG RICHTUNG:",
             delete_confirmation: "Sind Sie sicher Sie mochten dieser Mitarbeiter entfernen:",
@@ -121,7 +121,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
     resources,
-    lng: "pl",
+    lng: "de",
     fallbackLng: "en"
 })
 
