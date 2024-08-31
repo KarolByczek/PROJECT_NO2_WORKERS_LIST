@@ -7,16 +7,7 @@ export const EmployeeDetail = () => {
   console.log(location.state);
   const data = location.state;
 
-  const dateFormatter = (date0) => {
-    const formatedmonth =
-      date0.getMonth() < 9
-        ? "0" + (date0.getMonth() + 1)
-        : date0.getMonth() + 1;
-    const formatedday =
-      date0.getDate() < 10 ? "0" + date0.getDate() : date0.getDate();
-    return date0.getFullYear() + "-" + formatedmonth + "-" + formatedday;
-  };
-
+  
   const renderDetails = (fact) => {
     switch (fact) {
       case true:
@@ -42,7 +33,7 @@ export const EmployeeDetail = () => {
             type="text"
             id="birthdate"
             readOnly
-            value={dateFormatter(new Date(data.birthdate.seconds *1000).toLocaleDateString())}
+            value={(new Date(data.birthdate.seconds * 1000).toLocaleDateString('en-EU'))}
           />
         </label>
         <label htmlFor="club_member">
